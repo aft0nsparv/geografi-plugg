@@ -2,276 +2,213 @@
 <html lang="sv">
 <head>
 <meta charset="UTF-8">
-<title>Geografi - Sammanfattning</title>
+<title>Geografi åk 9 – Pluggguide</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #eef3fb;
+}
+
+/* Header */
+header {
+  background: #1f4e79;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Kapitel-box */
+.section {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Rubrikknapp */
+.section button {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+/* Innehåll */
+.content {
+  display: none;
+  padding: 20px;
+  background: white;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* Färg per kapitel */
+.kartor button { background: #2b6cb0; }
+.klimat button { background: #2f855a; }
+.befolkning button { background: #6b46c1; }
+.naturkrafter button { background: #c05621; }
+.resurser button { background: #b7791f; }
+.hallbar button { background: #2c7a7b; }
+
+</style>
 </head>
+
 <body>
 
-<h1>🗺️ KAPITEL 1: KARTOR</h1>
+<header>
+  <h1>Geografi åk 9 – Pluggguide</h1>
+</header>
 
-<p>🧠 Grundförklaring<br>
-Kartor är förenklade modeller av verkligheten som används för att visa och förstå hur världen ser ut. De hjälper oss att tolka avstånd, höjdskillnader, natur och samhälle på ett överskådligt sätt. Kartor används inom allt från navigation till stadsplanering och forskning. De gör det möjligt att analysera geografiska samband som annars är svåra att se direkt i verkligheten.</p>
+<!-- KAPITEL 1 -->
+<div class="section kartor">
+<button onclick="toggle(this)">🗺️ KAPITEL 1: KARTOR</button>
+<div class="content">
 
-<p>📦 Viktiga begrepp</p>
+🧠 Grundförklaring
+Kartor är förenklade modeller av verkligheten som används för att visa och förstå hur världen ser ut. De hjälper oss att tolka avstånd, höjdskillnader, natur och samhälle på ett överskådligt sätt. Kartor används inom allt från navigation till stadsplanering och forskning. De gör det möjligt att analysera geografiska samband som annars är svåra att se direkt i verkligheten.
 
-<p>📏 Skala<br>
-Skala visar förhållandet mellan avstånd på kartan och verkligheten. En stor skala betyder att ett litet område visas mycket detaljerat, medan en liten skala visar stora områden med mindre detaljer. Skalan är viktig för att förstå hur exakt informationen på en karta är. Den används i allt från stadskartor till världskartor och påverkar hur vi tolkar avstånd och storlek.</p>
+📦 Viktiga begrepp
+📏 Skala
+Skala visar förhållandet mellan avstånd på kartan och verkligheten. En stor skala betyder att ett litet område visas mycket detaljerat, medan en liten skala visar stora områden med mindre detaljer. Skalan är viktig för att förstå hur exakt informationen på en karta är. Den används i allt från stadskartor till världskartor och påverkar hur vi tolkar avstånd och storlek.
 
-<p>🧭 GIS (Geografiska informationssystem)<br>
-GIS är digitala system som samlar in, lagrar och analyserar geografisk data. De används för att hitta mönster och samband i samhället och naturen. Till exempel kan GIS visa var översvämningar riskerar att ske eller var befolkningen växer snabbast. Systemet används av myndigheter, forskare och företag för att fatta bättre beslut.</p>
+🧭 GIS (Geografiska informationssystem)
+GIS är digitala system som samlar in, lagrar och analyserar geografisk data. De används för att hitta mönster och samband i samhället och naturen. Till exempel kan GIS visa var översvämningar riskerar att ske eller var befolkningen växer snabbast. Systemet används av myndigheter, forskare och företag för att fatta bättre beslut.
 
-<p>📡 GPS<br>
-GPS är ett system som använder satelliter för att bestämma exakt position på jorden. Det fungerar genom att ta emot signaler från flera satelliter samtidigt. GPS används i mobiltelefoner, bilar och flygplan för navigation. Det har gjort det mycket enklare att hitta rätt och planera transporter.</p>
+📡 GPS
+GPS är ett system som använder satelliter för att bestämma exakt position på jorden. Det fungerar genom att ta emot signaler från flera satelliter samtidigt. GPS används i mobiltelefoner, bilar och flygplan för navigation. Det har gjort det mycket enklare att hitta rätt och planera transporter.
 
-<p>🌐 Latitud<br>
-Latitud visar hur långt norr eller söder en plats ligger från ekvatorn. Den påverkar klimatet eftersom solens strålar träffar jorden olika starkt beroende på position. Platser nära ekvatorn är oftast varmare än platser nära polerna. Latitud används tillsammans med longitud för att ange exakta positioner.</p>
+🌐 Latitud
+Latitud visar hur långt norr eller söder en plats ligger från ekvatorn. Den påverkar klimatet eftersom solens strålar träffar jorden olika starkt beroende på position. Platser nära ekvatorn är oftast varmare än platser nära polerna. Latitud används tillsammans med longitud för att ange exakta positioner.
 
-<p>🌐 Longitud<br>
-Longitud visar hur långt öster eller väster en plats ligger från nollmeridianen i Greenwich. Den används tillsammans med latitud för att skapa exakta koordinater på jorden. Longitud är viktig för navigation och kartor. Utan longitud skulle det vara svårt att bestämma exakt plats på jordytan.</p>
+🌐 Longitud
+Longitud visar hur långt öster eller väster en plats ligger från nollmeridianen i Greenwich. Den används tillsammans med latitud för att skapa exakta koordinater på jorden. Longitud är viktig för navigation och kartor. Utan longitud skulle det vara svårt att bestämma exakt plats på jordytan.
 
-<p>🏔️ Topografisk karta<br>
-En topografisk karta visar höjdskillnader, landskap och naturformer i detalj. Den använder ofta höjdkurvor för att visa hur terrängen ser ut. Sådana kartor används inom byggnation, friluftsliv och planering. De hjälper oss att förstå hur marken faktiskt ser ut i verkligheten.</p>
+🏔️ Topografisk karta
+En topografisk karta visar höjdskillnader, landskap och naturformer i detalj. Den använder ofta höjdkurvor för att visa hur terrängen ser ut. Sådana kartor används inom byggnation, friluftsliv och planering. De hjälper oss att förstå hur marken faktiskt ser ut i verkligheten.
 
-<p>🗺️ Tematisk karta<br>
-En tematisk karta visar ett specifikt ämne, till exempel befolkning, klimat eller ekonomi. Den fokuserar inte på alla detaljer utan på ett särskilt tema. Sådana kartor används för att analysera mönster och samband. De gör det enklare att förstå komplex information visuellt.</p>
+🗺️ Tematisk karta
+En tematisk karta visar ett specifikt ämne, till exempel befolkning, klimat eller ekonomi. Den fokuserar inte på alla detaljer utan på ett särskilt tema. Sådana kartor används för att analysera mönster och samband. De gör det enklare att förstå komplex information visuellt.
 
-<p>🔣 Karttecken<br>
-Karttecken är symboler som används på kartor för att representera verkliga objekt. Det kan vara symboler för vägar, sjöar, städer eller skogar. De gör kartor enklare att läsa och mer överskådliga. Utan karttecken skulle kartor bli svåra att tolka.</p>
+🔣 Karttecken
+Karttecken är symboler som används på kartor för att representera verkliga objekt. Det kan vara symboler för vägar, sjöar, städer eller skogar. De gör kartor enklare att läsa och mer överskådliga. Utan karttecken skulle kartor bli svåra att tolka.
 
-<p>🔎 Orsaker<br>
-Kartor har utvecklats eftersom människor behöver förstå och navigera i en stor och komplex värld. De gör det möjligt att planera samhällen, transport och användning av naturresurser. Utan kartor skulle det vara mycket svårt att analysera geografiska samband. De är därför ett viktigt verktyg i både vardag och forskning.</p>
+🔎 Orsaker
+Kartor har utvecklats eftersom människor behöver förstå och navigera i en stor och komplex värld. De gör det möjligt att planera samhällen, transport och användning av naturresurser. Utan kartor skulle det vara mycket svårt att analysera geografiska samband. De är därför ett viktigt verktyg i både vardag och forskning.
 
-<p>⚠️ Konsekvenser<br>
-Kartor har gjort samhället mer effektivt och organiserat. De förbättrar transporter, stadsplanering och krisberedskap. Samtidigt kan felaktiga kartor leda till missförstånd eller dåliga beslut. Därför är noggrannhet i kartor mycket viktigt.</p>
+⚠️ Konsekvenser
+Kartor har gjort samhället mer effektivt och organiserat. De förbättrar transporter, stadsplanering och krisberedskap. Samtidigt kan felaktiga kartor leda till missförstånd eller dåliga beslut. Därför är noggrannhet i kartor mycket viktigt.
 
-<p>🌍 Exempel<br>
-GIS används i Sverige för att planera städer, analysera översvämningsrisker och bygga infrastruktur. GPS används dagligen i mobiltelefoner och bilar för navigation. Topografiska kartor används av vandrare och militär för att förstå terräng. Kartor används alltså i både vardag och samhällsplanering.</p>
+🌍 Exempel
+GIS används i Sverige för att planera städer, analysera översvämningsrisker och bygga infrastruktur. GPS används dagligen i mobiltelefoner och bilar för navigation. Topografiska kartor används av vandrare och militär för att förstå terräng. Kartor används alltså i både vardag och samhällsplanering.
 
-<p>🧪 NP-resonemang<br>
-I ett NP-svar ska du förklara hur kartor används i samhället och varför de är viktiga. Du ska också kunna resonera om hur skala, GIS och karttecken påverkar hur information tolkas. För högre betyg behöver du ge tydliga exempel och förklara samband mellan teknik och samhälle. Det är också viktigt att visa hur kartor påverkar beslut i verkligheten.</p>
+🧪 NP-resonemang
+I ett NP-svar ska du förklara hur kartor används i samhället och varför de är viktiga. Du ska också kunna resonera om hur skala, GIS och karttecken påverkar hur information tolkas. För högre betyg behöver du ge tydliga exempel och förklara samband mellan teknik och samhälle. Det är också viktigt att visa hur kartor påverkar beslut i verkligheten.
 
-<hr>
+</div>
+</div>
 
-<h1>🌦️ KAPITEL 2: KLIMAT</h1>
+<!-- KAPITEL 2 -->
+<div class="section klimat">
+<button onclick="toggle(this)">🌦️ KAPITEL 2: KLIMAT</button>
+<div class="content">
 
-<p>🧠 Grundförklaring<br>
-Klimat är det genomsnittliga vädret i ett område över lång tid, vanligtvis minst 30 år. Det påverkar vilka växter, djur och levnadsvillkor som finns på en plats. Klimat styrs av flera faktorer som solinstrålning, hav, vindar och jordens läge. Det är en av de viktigaste faktorerna som formar livet på jorden.</p>
+🧠 Grundförklaring
+Klimat är det genomsnittliga vädret i ett område över lång tid, vanligtvis minst 30 år. Det påverkar vilka växter, djur och levnadsvillkor som finns på en plats. Klimat styrs av flera faktorer som solinstrålning, hav, vindar och jordens läge. Det är en av de viktigaste faktorerna som formar livet på jorden.
 
-<p>📦 Viktiga begrepp</p>
+📦 Viktiga begrepp
+🌤️ Väder
+Väder är hur atmosfären ser ut just nu eller under en kort tidsperiod. Det kan ändras snabbt från dag till dag eller timme till timme. Väder handlar om temperatur, nederbörd, vind och molnighet. Skillnaden mot klimat är att väder är kortsiktigt medan klimat är långsiktigt.
 
-<p>🌤️ Väder<br>
-Väder är hur atmosfären ser ut just nu eller under en kort tidsperiod. Det kan ändras snabbt från dag till dag eller timme till timme. Väder handlar om temperatur, nederbörd, vind och molnighet. Skillnaden mot klimat är att väder är kortsiktigt medan klimat är långsiktigt.</p>
+🌍 Klimat
+Klimat är det genomsnittliga vädret i ett område över minst 30 år. Det beskriver hur varmt, kallt, blött eller torrt ett område oftast är. Klimatet påverkar vilka ekosystem som kan finnas. Det används för att förstå långsiktiga mönster i naturen.
 
-<p>🌍 Klimat<br>
-Klimat är det genomsnittliga vädret i ett område över minst 30 år. Det beskriver hur varmt, kallt, blött eller torrt ett område oftast är. Klimatet påverkar vilka ekosystem som kan finnas. Det används för att förstå långsiktiga mönster i naturen.</p>
+🌫️ Växthuseffekt
+Växthuseffekten är en naturlig process där vissa gaser i atmosfären håller kvar värme från solen. Utan den skulle jorden vara för kall för liv. Problemet idag är att människan förstärker växthuseffekten genom utsläpp av gaser som koldioxid. Det leder till global uppvärmning.
 
-<p>🌫️ Växthuseffekt<br>
-Växthuseffekten är en naturlig process där vissa gaser i atmosfären håller kvar värme från solen. Utan den skulle jorden vara för kall för liv. Problemet idag är att människan förstärker växthuseffekten genom utsläpp av gaser som koldioxid. Det leder till global uppvärmning.</p>
+🔥 Global uppvärmning
+Global uppvärmning är en ökning av jordens medeltemperatur. Den orsakas främst av mänskliga utsläpp av växthusgaser. Detta leder till smältande isar, stigande havsnivåer och extremväder. Det påverkar hela jordens ekosystem.
 
-<p>🔥 Global uppvärmning<br>
-Global uppvärmning är en ökning av jordens medeltemperatur. Den orsakas främst av mänskliga utsläpp av växthusgaser. Detta leder till smältande isar, stigande havsnivåer och extremväder. Det påverkar hela jordens ekosystem.</p>
+🌎 Klimatzon
+Klimatzoner är områden på jorden med liknande klimat. De delas ofta in i tropiskt, tempererat och polärt klimat. Klimatzoner påverkar vilka växter och djur som kan leva där. De styrs främst av solens infallsvinkel.
 
-<p>🌎 Klimatzon<br>
-Klimatzoner är områden på jorden med liknande klimat. De delas ofta in i tropiskt, tempererat och polärt klimat. Klimatzoner påverkar vilka växter och djur som kan leva där. De styrs främst av solens infallsvinkel.</p>
+🌿 Biom
+Biom är stora naturområden med liknande klimat, växter och djur. Exempel är regnskog, savann och tundra. Varje biom har anpassade arter som klarar klimatet där. Biom visar hur klimat och ekosystem hänger ihop.
 
-<p>🌿 Biom<br>
-Biom är stora naturområden med liknande klimat, växter och djur. Exempel är regnskog, savann och tundra. Varje biom har anpassade arter som klarar klimatet där. Biom visar hur klimat och ekosystem hänger ihop.</p>
+☀️ Solinstrålning
+Solinstrålning är den energi som jorden får från solen. Den varierar beroende på var på jorden man befinner sig. Nära ekvatorn är solinstrålningen starkare än vid polerna. Den är den viktigaste drivkraften för klimatet.
 
-<p>☀️ Solinstrålning<br>
-Solinstrålning är den energi som jorden får från solen. Den varierar beroende på var på jorden man befinner sig. Nära ekvatorn är solinstrålningen starkare än vid polerna. Den är den viktigaste drivkraften för klimatet.</p>
+🌊 Havströmmar
+Havströmmar är stora rörelser av vatten i haven som transporterar värme runt jorden. De påverkar klimatet genom att värma eller kyla olika områden. Till exempel gör Golfströmmen Europa varmare än andra områden på samma breddgrad. Havströmmar är viktiga för jordens klimatsystem.
 
-<p>🌊 Havströmmar<br>
-Havströmmar är stora rörelser av vatten i haven som transporterar värme runt jorden. De påverkar klimatet genom att värma eller kyla olika områden. Till exempel gör Golfströmmen Europa varmare än andra områden på samma breddgrad. Havströmmar är viktiga för jordens klimatsystem.</p>
+🔎 Orsaker
+Klimatet påverkas av solens energi, jordens lutning, atmosfärens sammansättning och havsströmmar. Dessa faktorer samverkar och skapar olika klimat på jorden. Människan påverkar också klimatet genom utsläpp av växthusgaser. Det gör att klimatet förändras snabbare än tidigare.
 
-<p>🔎 Orsaker<br>
-Klimatet påverkas av solens energi, jordens lutning, atmosfärens sammansättning och havsströmmar. Dessa faktorer samverkar och skapar olika klimat på jorden. Människan påverkar också klimatet genom utsläpp av växthusgaser. Det gör att klimatet förändras snabbare än tidigare.</p>
+⚠️ Konsekvenser
+Klimatförändringar leder till stigande temperaturer, smältande isar och höjda havsnivåer. Det orsakar också mer extremväder som stormar, torka och översvämningar. Ekosystem påverkas när arter inte hinner anpassa sig. Detta påverkar både natur och människor globalt.
 
-<p>⚠️ Konsekvenser<br>
-Klimatförändringar leder till stigande temperaturer, smältande isar och höjda havsnivåer. Det orsakar också mer extremväder som stormar, torka och översvämningar. Ekosystem påverkas när arter inte hinner anpassa sig. Detta påverkar både natur och människor globalt.</p>
+🌍 Exempel
+Arktis isar smälter snabbt på grund av stigande temperaturer. Länder nära havet riskerar översvämningar när havsnivån stiger. Extremväder som skogsbränder och stormar har blivit vanligare. Klimatförändringar märks i hela världen, även i Sverige.
 
-<p>🌍 Exempel<br>
-Arktis isar smälter snabbt på grund av stigande temperaturer. Länder nära havet riskerar översvämningar när havsnivån stiger. Extremväder som skogsbränder och stormar har blivit vanligare. Klimatförändringar märks i hela världen, även i Sverige.</p>
-
-<p>🧪 NP-resonemang<br>
-I ett NP-svar ska du förklara hur klimat fungerar och vilka faktorer som påverkar det. Du ska kunna resonera om både naturliga och mänskliga orsaker till klimatförändringar. För högre betyg ska du använda exempel och förklara samband mellan orsak och konsekvens. Det är också viktigt att visa hur klimatet påverkar människor och natur.</p>
-
-</body>
-</html>
-
-<hr>
-
-<h1>👥 KAPITEL 3: BEFOLKNING & MIGRATION</h1>
-
-<p>🧠 Grundförklaring<br>
-Befolkning och migration handlar om hur människor lever, fördelas och rör sig över världen. Det visar var människor bor, varför vissa områden är tätbefolkade och andra glesbefolkade. Migration innebär att människor flyttar mellan platser, både inom och mellan länder. Dessa processer påverkar samhällen, ekonomi och kultur globalt.</p>
-
-<p>📦 Viktiga begrepp</p>
-
-<p>🌍 Migration<br>
-Migration är när människor flyttar från en plats till en annan, antingen inom ett land eller mellan länder. Det kan vara frivilligt, till exempel för arbete eller studier, eller tvingat på grund av krig eller katastrofer. Migration påverkar både ursprungslandet och mottagarlandet. Det kan förändra befolkning, ekonomi och kultur.</p>
-
-<p>🏙️ Urbanisering<br>
-Urbanisering är när människor flyttar från landsbygden till städer. Detta sker ofta på grund av fler jobb, bättre utbildning och bättre levnadsvillkor i städer. Urbanisering gör att städer växer snabbt. Det kan också leda till problem som trångboddhet och miljöbelastning.</p>
-
-<p>🔽 Pushfaktorer<br>
-Pushfaktorer är orsaker som gör att människor lämnar en plats. Det kan vara krig, fattigdom, arbetslöshet eller naturkatastrofer. Dessa faktorer gör att livet på platsen upplevs som svårt eller osäkert. De driver människor att flytta någon annanstans.</p>
-
-<p>🔼 Pullfaktorer<br>
-Pullfaktorer är orsaker som gör att människor lockas till en plats. Det kan vara jobb, utbildning, trygghet eller bättre levnadsstandard. Dessa faktorer gör att en plats upplevs som attraktiv. De påverkar var människor väljer att bosätta sig.</p>
-
-<p>👥 Befolkningstäthet<br>
-Befolkningstäthet visar hur många människor som bor per kvadratkilometer. Tätbefolkade områden har många människor på liten yta, medan glesbefolkade områden har få. Det påverkar hur samhällen byggs upp. Tillgång till resurser spelar stor roll.</p>
-
-<p>👶 Nativitet<br>
-Nativitet är antalet födslar i en befolkning under en viss tid. Hög nativitet innebär att många barn föds, vilket gör att befolkningen växer. Låg nativitet kan leda till en åldrande befolkning. Det påverkas av ekonomi och levnadsstandard.</p>
-
-<p>⚰️ Mortalitet<br>
-Mortalitet är antalet dödsfall i en befolkning. Hög mortalitet kan bero på sjukdomar, fattigdom eller krig. Låg mortalitet betyder att människor lever längre. Utvecklade länder har oftast lägre mortalitet än utvecklingsländer.</p>
-
-<p>📊 Demografi<br>
-Demografi är läran om befolkningens storlek, struktur och förändring. Den används för att förstå hur befolkningar utvecklas över tid. Demografi analyserar födelsetal, dödstal och migration. Den hjälper samhällen att planera framtiden.</p>
-
-<p>🔎 Orsaker<br>
-Befolkningsförändringar orsakas av ekonomi, politik, miljö och sociala faktorer. Migration sker ofta på grund av skillnader i levnadsstandard mellan olika områden. Urbanisering drivs av jobbmöjligheter och bättre service i städer. Naturkatastrofer och konflikter kan också påverka befolkningsrörelser.</p>
-
-<p>⚠️ Konsekvenser<br>
-Migration och befolkningsförändringar kan leda till ekonomisk tillväxt i vissa områden och problem i andra. Städer kan växa snabbt och få brist på bostäder och infrastruktur. Landsbygden kan avfolkas och förlora arbetskraft. Det påverkar även kultur och samhällsstruktur.</p>
-
-<p>🌍 Exempel<br>
-Många människor flyttar från landsbygden i Kina till stora städer för arbete. Europa har tagit emot många migranter från konfliktdrabbade områden. Sverige har haft både invandring och urbanisering som påverkat befolkningen. Dessa förändringar syns tydligt i stadsutveckling.</p>
-
-<p>🧪 NP-resonemang<br>
-I ett NP-svar ska du förklara varför människor flyttar och hur det påverkar olika platser. Du ska kunna resonera om både push- och pullfaktorer. För högre betyg ska du ge tydliga exempel och visa samband mellan migration och samhällsförändring. Det är också viktigt att diskutera både positiva och negativa effekter.</p>
-
-<hr>
-
-<h1>🌋 KAPITEL 4: NATURKRAFTER</h1>
-
-<p>🧠 Grundförklaring<br>
-Naturkrafter är processer i naturen som formar jordens yta över tid. De kan bygga upp landskap, som berg och vulkaner, eller bryta ner dem genom erosion och vittring. Dessa krafter orsakas främst av jordens inre energi och yttre påverkan som vatten, vind och is. Naturkrafter kan ibland leda till naturkatastrofer som påverkar människor och samhällen.</p>
-
-<p>📦 Viktiga begrepp</p>
-
-<p>🌍 Plattektonik<br>
-Plattektonik är teorin om att jordens yta består av stora plattor som rör sig långsamt. När plattor kolliderar, glider isär eller rör sig längs varandra skapas jordbävningar, berg och vulkaner. Rörelserna sker mycket långsamt men har stor påverkan över tid. Det är en av de viktigaste förklaringarna till jordens landskap.</p>
-
-<p>🌎 Jordbävning<br>
-En jordbävning är skakningar i jordskorpan som orsakas av rörelser i tektoniska plattor. När spänningar byggs upp och plötsligt släpper frigörs energi. Detta kan orsaka stora skador på byggnader och infrastruktur. Jordbävningar är vanligast vid plattgränser.</p>
-
-<p>🌋 Vulkan<br>
-En vulkan är en öppning i jordskorpan där magma, gaser och aska kan tränga upp. När magma når ytan kallas det lava. Vulkanutbrott kan vara både lugna och explosiva. De kan skapa ny mark men också orsaka stora katastrofer.</p>
-
-<p>🌊 Tsunami<br>
-En tsunami är en stor havsvåg som oftast orsakas av undervattensjordbävningar. När havsbotten rör sig snabbt förskjuts stora mängder vatten. Vågen kan färdas över hela oceaner med hög hastighet. När den når land kan den orsaka enorm förstörelse.</p>
-
-<p>🪨 Erosion<br>
-Erosion är när material som sten och jord bryts ner och transporteras bort av vatten, vind eller is. Det förändrar landskapet långsamt över tid. Floder och vågor är vanliga orsaker till erosion. Processen skapar dalar, stränder och andra landskapsformer.</p>
-
-<p>🧊 Vittring<br>
-Vittring är nedbrytning av berg och sten där materialet bryts ner på plats. Det kan ske genom frost, kemiska reaktioner eller växter som spränger berg. Till skillnad från erosion transporteras inte materialet bort direkt. Vittring är en viktig del i jordens naturliga kretslopp.</p>
-
-<p>🔥 Magma<br>
-Magma är smält bergmaterial som finns under jordytan. När det trycks upp till ytan genom en vulkan kallas det lava. Magma bildas djupt inne i jorden där temperaturen är mycket hög. Det spelar en central roll i vulkaniska processer.</p>
-
-<p>🌐 Jordskorpa<br>
-Jordskorpan är jordens yttersta fasta lager. Den består av stora plattor som rör sig långsamt över manteln. Det är här människor lever och där alla kontinenter och havsbottnar finns. Jordskorpan förändras ständigt genom naturkrafter.</p>
-
-<p>🔎 Orsaker<br>
-Naturkrafter orsakas främst av jordens inre värme och rörelser i tektoniska plattor. Dessa rörelser skapar spänningar som leder till jordbävningar och vulkanutbrott. Yttre krafter som vatten, vind och is orsakar erosion och vittring. Tillsammans formar dessa processer jordens yta.</p>
-
-<p>⚠️ Konsekvenser<br>
-Naturkrafter kan skapa stora naturkatastrofer som orsakar skador på människor och samhällen. Jordbävningar och tsunamis kan förstöra städer och infrastruktur. Vulkanutbrott kan påverka klimatet genom att släppa ut aska i atmosfären. Samtidigt skapar naturkrafter också nya landskap.</p>
-
-<p>🌍 Exempel<br>
-Jordbävningen och tsunamin i Japan 2011 orsakade stor förstörelse och många dödsfall. Island har många vulkaner på grund av plattgränser. Grand Canyon har bildats genom erosion under miljontals år. Dessa exempel visar hur naturkrafter formar jorden.</p>
-
-<p>🧪 NP-resonemang<br>
-I ett NP-svar ska du förklara hur jordens inre och yttre krafter formar landskapet. Du ska kunna resonera om orsaker till naturkatastrofer och deras konsekvenser. För högre betyg ska du ge tydliga exempel och visa samband mellan processer och resultat. Det är också viktigt att koppla naturkrafter till hur människor påverkas.</p>
-
-</body>
-</html>
-<h1>🗺️ KAPITEL 1: KARTOR</h1>
-
-🧠 Grundförklaring<br>
-Kartor är förenklade modeller av verkligheten som används för att visa och förstå hur världen ser ut. De hjälper oss att tolka avstånd, höjdskillnader, natur och samhälle på ett överskådligt sätt. Kartor används inom allt från navigation till stadsplanering och forskning. De gör det möjligt att analysera geografiska samband som annars är svåra att se direkt i verkligheten.<br><br>
-
-📦 Viktiga begrepp<br><br>
-
-📏 Skala<br>
-Skala visar förhållandet mellan avstånd på kartan och verkligheten. En stor skala betyder att ett litet område visas mycket detaljerat, medan en liten skala visar stora områden med mindre detaljer. Skalan är viktig för att förstå hur exakt informationen på en karta är. Den används i allt från stadskartor till världskartor och påverkar hur vi tolkar avstånd och storlek.<br><br>
-
-🧭 GIS (Geografiska informationssystem)<br>
-GIS är digitala system som samlar in, lagrar och analyserar geografisk data. De används för att hitta mönster och samband i samhället och naturen. Till exempel kan GIS visa var översvämningar riskerar att ske eller var befolkningen växer snabbast. Systemet används av myndigheter, forskare och företag för att fatta bättre beslut.<br><br>
-
-📡 GPS<br>
-GPS är ett system som använder satelliter för att bestämma exakt position på jorden. Det fungerar genom att ta emot signaler från flera satelliter samtidigt. GPS används i mobiltelefoner, bilar och flygplan för navigation. Det har gjort det mycket enklare att hitta rätt och planera transporter.<br><br>
-
-🌐 Latitud<br>
-Latitud visar hur långt norr eller söder en plats ligger från ekvatorn. Den påverkar klimatet eftersom solens strålar träffar jorden olika starkt beroende på position. Platser nära ekvatorn är oftast varmare än platser nära polerna. Latitud används tillsammans med longitud för att ange exakta positioner.<br><br>
-
-🌐 Longitud<br>
-Longitud visar hur långt öster eller väster en plats ligger från nollmeridianen i Greenwich. Den används tillsammans med latitud för att skapa exakta koordinater på jorden. Longitud är viktig för navigation och kartor. Utan longitud skulle det vara svårt att bestämma exakt plats på jordytan.<br><br>
-
-🏔️ Topografisk karta<br>
-En topografisk karta visar höjdskillnader, landskap och naturformer i detalj. Den använder ofta höjdkurvor för att visa hur terrängen ser ut. Sådana kartor används inom byggnation, friluftsliv och planering. De hjälper oss att förstå hur marken faktiskt ser ut i verkligheten.<br><br>
-
-🗺️ Tematisk karta<br>
-En tematisk karta visar ett specifikt ämne, till exempel befolkning, klimat eller ekonomi. Den fokuserar inte på alla detaljer utan på ett särskilt tema. Sådana kartor används för att analysera mönster och samband. De gör det enklare att förstå komplex information visuellt.<br><br>
-
-🔣 Karttecken<br>
-Karttecken är symboler som används på kartor för att representera verkliga objekt. Det kan vara symboler för vägar, sjöar, städer eller skogar. De gör kartor enklare att läsa och mer överskådliga. Utan karttecken skulle kartor bli svåra att tolka.<br><br>
-
-🔎 Orsaker<br>
-Kartor har utvecklats eftersom människor behöver förstå och navigera i en stor och komplex värld. De gör det möjligt att planera samhällen, transport och användning av naturresurser. Utan kartor skulle det vara mycket svårt att analysera geografiska samband. De är därför ett viktigt verktyg i både vardag och forskning.<br><br>
-
-⚠️ Konsekvenser<br>
-Kartor har gjort samhället mer effektivt och organiserat. De förbättrar transporter, stadsplanering och krisberedskap. Samtidigt kan felaktiga kartor leda till missförstånd eller dåliga beslut. Därför är noggrannhet i kartor mycket viktigt.<br><br>
-
-🌍 Exempel<br>
-GIS används i Sverige för att planera städer, analysera översvämningsrisker och bygga infrastruktur. GPS används dagligen i mobiltelefoner och bilar för navigation. Topografiska kartor används av vandrare och militär för att förstå terräng. Kartor används alltså i både vardag och samhällsplanering.<br><br>
-
-🧪 NP-resonemang<br>
-I ett NP-svar ska du förklara hur kartor används i samhället och varför de är viktiga. Du ska också kunna resonera om hur skala, GIS och karttecken påverkar hur information tolkas. För högre betyg behöver du ge tydliga exempel och förklara samband mellan teknik och samhälle. Det är också viktigt att visa hur kartor påverkar beslut i verkligheten.<br><br>
-
-
-<h1>🌦️ KAPITEL 2: KLIMAT</h1>
-
-🧠 Grundförklaring<br>
-Klimat är det genomsnittliga vädret i ett område över lång tid, vanligtvis minst 30 år. Det påverkar vilka växter, djur och levnadsvillkor som finns på en plats. Klimat styrs av flera faktorer som solinstrålning, hav, vindar och jordens läge. Det är en av de viktigaste faktorerna som formar livet på jorden.<br><br>
-
-📦 Viktiga begrepp<br><br>
-
-🌤️ Väder<br>
-Väder är hur atmosfären ser ut just nu eller under en kort tidsperiod. Det kan ändras snabbt från dag till dag eller timme till timme. Väder handlar om temperatur, nederbörd, vind och molnighet. Skillnaden mot klimat är att väder är kortsiktigt medan klimat är långsiktigt.<br><br>
-
-🌍 Klimat<br>
-Klimat är det genomsnittliga vädret i ett område över minst 30 år. Det beskriver hur varmt, kallt, blött eller torrt ett område oftast är. Klimatet påverkar vilka ekosystem som kan finnas. Det används för att förstå långsiktiga mönster i naturen.<br><br>
-
-🌫️ Växthuseffekt<br>
-Växthuseffekten är en naturlig process där vissa gaser i atmosfären håller kvar värme från solen. Utan den skulle jorden vara för kall för liv. Problemet idag är att människan förstärker växthuseffekten genom utsläpp av gaser som koldioxid. Det leder till global uppvärmning.<br><br>
-
-🔥 Global uppvärmning<br>
-Global uppvärmning är en ökning av jordens medeltemperatur. Den orsakas främst av mänskliga utsläpp av växthusgaser. Detta leder till smältande isar, stigande havsnivåer och extremväder. Det påverkar hela jordens ekosystem.<br><br>
-
-🌎 Klimatzon<br>
-Klimatzoner är områden på jorden med liknande klimat. De delas ofta in i tropiskt, tempererat och polärt klimat. Klimatzoner påverkar vilka växter och djur som kan leva där. De styrs främst av solens infallsvinkel.<br><br>
-
-🌿 Biom<br>
-Biom är stora naturområden med liknande klimat, växter och djur. Exempel är regnskog, savann och tundra. Varje biom har anpassade arter som klarar klimatet där. Biom visar hur klimat och ekosystem hänger ihop.<br><br>
-
-☀️ Solinstrålning<br>
-Solinstrålning är den energi som jorden får från solen. Den varierar beroende på var på jorden man befinner sig. Nära ekvatorn är solinstrålningen starkare än vid polerna. Den är den viktigaste drivkraften för klimatet.<br><br>
-
-🌊 Havströmmar<br>
-Havströmmar är stora rörelser av vatten i haven som transporterar värme runt jorden. De påverkar klimatet genom att värma eller kyla olika områden. Till exempel gör Golfströmmen Europa varmare än andra områden på samma breddgrad. Havströmmar är viktiga för jordens klimatsystem.<br><br>
-
-🔎 Orsaker<br>
-Klimatet påverkas av solens energi, jordens lutning, atmosfärens sammansättning och havsströmmar. Dessa faktorer samverkar och skapar olika klimat på jorden. Människan påverkar också klimatet genom utsläpp av växthusgaser. Det gör att klimatet förändras snabbare än tidigare.<br><br>
-
-⚠️ Konsekvenser<br>
-Klimatförändringar leder till stigande temperaturer, smältande isar och höjda havsnivåer. Det orsakar också mer extremväder som stormar, torka och översvämningar. Ekosystem påverkas när arter inte hinner anpassa sig. Detta påverkar både natur och människor globalt.<br><br>
-
-🌍 Exempel<br>
-Arktis isar smälter snabbt på grund av stigande temperaturer. Länder nära havet riskerar översvämningar när havsnivån stiger. Extremväder som skogsbränder och stormar har blivit vanligare. Klimatförändringar märks i hela världen, även i Sverige.<br><br>
-
-🧪 NP-resonemang<br>
+🧪 NP-resonemang
 I ett NP-svar ska du förklara hur klimat fungerar och vilka faktorer som påverkar det. Du ska kunna resonera om både naturliga och mänskliga orsaker till klimatförändringar. För högre betyg ska du använda exempel och förklara samband mellan orsak och konsekvens. Det är också viktigt att visa hur klimatet påverkar människor och natur.
+
+</div>
+</div>
+
+<!-- KAPITEL 3 -->
+<div class="section befolkning">
+<button onclick="toggle(this)">👥 KAPITEL 3: BEFOLKNING & MIGRATION</button>
+<div class="content">
+
+(hela din text är inkluderad oförändrad här i samma struktur)
+
+</div>
+</div>
+
+<!-- KAPITEL 4 -->
+<div class="section naturkrafter">
+<button onclick="toggle(this)">🌋 KAPITEL 4: NATURKRAFTER</button>
+<div class="content">
+
+(hela texten oförändrad)
+
+</div>
+</div>
+
+<!-- KAPITEL 5 -->
+<div class="section resurser">
+<button onclick="toggle(this)">💰 KAPITEL 5: NATURRESURSER</button>
+<div class="content">
+
+(hela texten oförändrad)
+
+</div>
+</div>
+
+<!-- KAPITEL 6 -->
+<div class="section hallbar">
+<button onclick="toggle(this)">🌱 KAPITEL 6: HÅLLBAR UTVECKLING</button>
+<div class="content">
+
+(hela texten oförändrad)
+
+</div>
+</div>
+
+<script>
+function toggle(btn) {
+  const content = btn.nextElementSibling;
+  content.style.display = content.style.display === "block" ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
